@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- favocons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spell Checker - Cloud Computing</title>
+</head>
+
+<body oncontextmenu="return false;">
+    <div class="container">
+        <header>
+            <h1>Real Time Spell Checker</h1>
+            <h3><b>Check your English text for grammar, spelling, and punctuation
+                errors with real-time spell checker</b></h3>
+        </header>
+        <main>
+            <div class="text-box">
+                <div class="input-output-container">
+                    <div class="input-container">
+                        <textarea id="textarea-input" class="textarea" placeholder="Type here..."></textarea>
+                        <button onclick="spellCheckAndCorrect()">Check and Correct</button>
+                    </div>
+                    <div class="output-container">
+                        <textarea id="textarea-output" class="textarea" placeholder="Corrected Text..."></textarea>
+                        <button onclick="CopyText()">Copy Text</button>
+                        <!-- Add a hidden input element to store the copied text -->
+                        <input type="text" id="hidden-input" style="position: absolute; left: -9999px; top: -9999px;">
+
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
