@@ -1,3 +1,4 @@
+UPDATE:  The API key expired so its not working currently
 🚀 Just launched my latest project – a Real-Time Spell Checker using JavaScript and APIs! 📝
 
 ✨ Key Features:
